@@ -1,0 +1,12 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
+
+.toolbar-primary,
+window > toolbar:nth-of-type(1) {
+  -moz-appearance: none !important;
+	background:#0068b3 !important;
+}
+
+.tabbrowser-tabs {
+	-moz-appearance: none !important;
+	background-color:#464646 !important;
+}

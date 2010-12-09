@@ -1,0 +1,4 @@
+content	supersecret	content/
+overlay	chrome://browser/content/browser.xul	chrome://supersecret/content/overlay.xul
+locale	supersecret	en-US	locale/en-US/
+skin	supersecret	classic/1.0	skin/

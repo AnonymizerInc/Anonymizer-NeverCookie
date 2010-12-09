@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<overlay id="supersecret-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://supersecret/content/supersecret.js"></script>
+  <script type="application/x-javascript" src="chrome://supersecret/content/supersecretSettings.js"></script>
+  
+  <menupopup id="menu_ToolsPopup">
+	  <menuitem insertafter="devToolsSeparator" label="Advanced Privacy Settings" accesskey="S" oncommand="superSecretSettingsProg.loadWindow();" />
+  </menupopup>
+  
+</overlay>
